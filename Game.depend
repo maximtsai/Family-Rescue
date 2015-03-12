@@ -1,0 +1,155 @@
+# depslib dependency file v1.0
+1389926027 source:e:\programminghope\game\main.cpp
+	"weapon.h"
+
+1179894980 e:\haaf's game engine\hge17\include\hge.h
+	<windows.h>
+
+1177635346 e:\haaf's game engine\hge17\include\hgesprite.h
+	"hge.h"
+	"hgerect.h"
+
+1176936486 e:\haaf's game engine\hge17\include\hgerect.h
+
+1177541940 e:\haaf's game engine\hge17\include\hgefont.h
+	"hge.h"
+	"hgesprite.h"
+
+1390001834 e:\programminghope\game\weapon.h
+	<hge.h>
+	<hgesprite.h>
+	<hgefont.h>
+	<math.h>
+
+1390002962 source:e:\programminghope\game\functions.cpp
+	"weapon.h"
+
+1418948194 source:e:\programminghope\ziki\menuitem.cpp
+	"menuitem.h"
+
+1418950264 e:\programminghope\ziki\menuitem.h
+	"hge.h"
+	"hgegui.h"
+	"hgefont.h"
+	"hgecolor.h"
+
+1179894980 e:\haaf's game engine\hge17\include\hgegui.h
+	"hge.h"
+	"hgesprite.h"
+	"hgerect.h"
+
+1176936486 e:\haaf's game engine\hge17\include\hgecolor.h
+	"hge.h"
+
+1410128450 source:e:\programminghope\ziki\main.cpp
+	"hge.h"
+	"hgesprite.h"
+	"hgevector.h"
+	<list>
+	<math.h>
+	"c_player.h"
+	"c_bullet.h"
+	"c_enemy.h"
+	"c_block.h"
+	<stdio.h>
+
+1176936486 e:\haaf's game engine\hge17\include\hgevector.h
+	"hge.h"
+	<math.h>
+
+1417293189 e:\programminghope\ziki\c_player.h
+	<hge.h>
+	<hgevector.h>
+	<hgeanim.h>
+
+1177372080 e:\haaf's game engine\hge17\include\hgeanim.h
+	"hgesprite.h"
+
+1418950246 source:e:\programminghope\ziki\c_player.cpp
+	"c_player.h"
+	<stdio.h>
+
+1417294422 source:e:\programminghope\ziki\c_bullet.cpp
+	"c_bullet.h"
+
+1417294320 e:\programminghope\ziki\c_bullet.h
+	<hge.h>
+	<hgesprite.h>
+	<hgevector.h>
+	<hgerect.h>
+
+1410120954 source:e:\programminghope\ziki\c_enemy.cpp
+	"c_enemy.h"
+
+1410120880 e:\programminghope\ziki\c_enemy.h
+	<hge.h>
+	<hgevector.h>
+	<hgeanim.h>
+
+1410120997 source:e:\programminghope\ziki\c_block.cpp
+	"c_block.h"
+
+1410120841 e:\programminghope\ziki\c_block.h
+	<hge.h>
+	<hgesprite.h>
+	<hgevector.h>
+	<hgerect.h>
+
+1419809584 source:e:\programminghope\mombirthday\c_block.cpp
+	"c_block.h"
+
+1410120841 e:\programminghope\mombirthday\c_block.h
+	<hge.h>
+	<hgesprite.h>
+	<hgevector.h>
+	<hgerect.h>
+
+1417294422 source:e:\programminghope\mombirthday\c_bullet.cpp
+	"c_bullet.h"
+
+1417294320 e:\programminghope\mombirthday\c_bullet.h
+	<hge.h>
+	<hgesprite.h>
+	<hgevector.h>
+	<hgerect.h>
+
+1410120954 source:e:\programminghope\mombirthday\c_enemy.cpp
+	"c_enemy.h"
+
+1410120880 e:\programminghope\mombirthday\c_enemy.h
+	<hge.h>
+	<hgevector.h>
+	<hgeanim.h>
+
+1419810544 source:e:\programminghope\mombirthday\c_player.cpp
+	"c_player.h"
+	<stdio.h>
+
+1419811234 e:\programminghope\mombirthday\c_player.h
+	<hge.h>
+	<hgevector.h>
+	<hgeanim.h>
+
+1419669227 source:e:\programminghope\mombirthday\menubutton.cpp
+	"menubutton.h"
+
+1419669067 e:\programminghope\mombirthday\menubutton.h
+	"hge.h"
+	"hgegui.h"
+	"hgefont.h"
+	"hgecolor.h"
+
+1419999804 source:e:\programminghope\mombirthday\main.cpp
+	"hge.h"
+	"hgesprite.h"
+	"hgevector.h"
+	"hgefont.h"
+	<list>
+	<math.h>
+	"c_player.h"
+	"c_bullet.h"
+	"c_enemy.h"
+	"c_block.h"
+	"menubutton.h"
+	<stdio.h>
+

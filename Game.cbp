@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="..\..\Haaf&apos;s Game Engine\hge17\include" />
+				</Compiler>
+				<Linker>
+					<Add library="..\..\Haaf&apos;s Game Engine\hge17\lib\vc\hge.lib" />
+					<Add library="..\..\Haaf&apos;s Game Engine\hge17\lib\vc\hgehelp.lib" />
+					<Add library="..\..\Haaf&apos;s Game Engine\hge17\lib\gcc\libhgehelp.a" />
+					<Add directory="..\..\Haaf&apos;s Game Engine\hge17\lib\vc" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Main.cpp" />
+		<Unit filename="c_block.cpp" />
+		<Unit filename="c_block.h" />
+		<Unit filename="c_bullet.cpp" />
+		<Unit filename="c_bullet.h" />
+		<Unit filename="c_enemy.cpp" />
+		<Unit filename="c_enemy.h" />
+		<Unit filename="c_player.cpp" />
+		<Unit filename="c_player.h" />
+		<Unit filename="menubutton.cpp" />
+		<Unit filename="menubutton.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
